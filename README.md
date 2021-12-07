@@ -7,32 +7,36 @@ Relational Analytics
 
 •	How large is each police unit? The average police units?
 
-•	Many background questions such as, for each unit, the average:
-
-  o	Age, years on force, % male vs. female, number of different races, etc.
+•	Many background questions such as, for each unit, the average: Age, years on force, % male vs. female, number of different races, etc.
   
 •	Number of complaints filed against members of each different unit, aggregating to average number of complaints per LEO in each unit
 
 •	How many shifts/beats do certain partners work together?
 
-•	How often is one partner indicated on an allegation but not the other?
-
-  o	I am interested in this specifically to see if there is a pattern of certain officers being around behavior resulting in allegations but not being listed on the allegations. Are these officers “enabling” their partners to act out but not participating themselves?
+•	How often is one partner indicated on an allegation but not the other? I am interested in this specifically to see if there is a pattern of certain officers being around behavior resulting in allegations but not being listed on the allegations. Are these officers “enabling” their partners to act out but not participating themselves?
 
 Data Exploration
+
 •	Scatterplot with key characteristics of units vs. number of complaints against the unit
+
 •	Scatterplot with key characteristics of units vs. number of TRRs
 
 Interactive Visualization
+
 •	Dot plots of changes in unit compositions between years compared to changes in allegation rates per year. Specifically, changes in gender and racial entropy vs. allegation rates per officer for each unit. Adjusting a sliding bar allows users to select the year they want to see compared to the prior year.
+
 •	Dot plots of changes in unit compositions between years compared to changes in trr rates per year. Specifically, changes in gender and racial entropy vs. trr rates per officer for each unit. Adjusting a sliding bar allows users to select the year they want to see compared to the prior year.
+
 •	Note: time and bandwidth permitting, I will try to turn the dot plots into connected dot plots for the final submission of my project.
 
 Graph Analytics
+
 •	Are there officers that are frequently working with (on the same shift/beat as) officers that are receiving complaints? By using graph analytics I can connect nodes (officers) that work together and identify when there are complaints against one but not the other. This can help us to potentially identify “enabler”, a term that I will use to refer to officers that are not showing up on allegations but are working with officers that do.
+
 •	As recommended in the last feedback; using triangle counting to create graphs of co-accusals (inter-unit and intra-unit) and determine which one is more clustered. If the inter-unit is more clustered, the unit may play a significant role. If the intra-unit is more clustered, the effect of the unit may not be that significant.
 
 NLP Models
+
 •	Sentiment analysis on the available free-form text of a complaint then related to the demographics of the officers’ specific units. Do we see a more negative sentiment between complaints against an officer of a unit that is more homogenous? 
 
 

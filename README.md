@@ -4,9 +4,12 @@ Updated Project Proposal
 I would like to investigate the role that co-workers play in allegations. I would like to look into both the role of the unit to which an officer is assigned as well as officers “partners” on given “beats”. Do we find that different characteristics about units result in higher or lower rates of allegations for officers of that unit? What role does the composition of police units play? By investigating key features of the police unit and tying them out with the allegation data, we can look for patterns that may emerge. Ideally, we will uncover characteristics about lower offending units and identify potential changes to be made to the compositions of police units. For example, do units with more ethnic diversity have lower rates of allegations? Do units with LEO’s that have been in the same unit for a long time see lower rates? Additionally, I would like to investigate the effect that “partners”, or officers assigned to the same beat/shift have on an officer’s rate of complaints. Do we find that certain officers are commonly paired with officers that are receiving complaints (“enablers”)? By answering questions like these, we may be better able to construct a police unit in a manner that is correlated with lower rates of allegations as well as assign partners in a better way.
 
 Relational Analytics
+
 •	How large is each police unit? The average police units?
+
 •	Many background questions such as, for each unit, the average:
-o	Age, years on force, % male vs. female, number of different races, etc.
+
+  o	Age, years on force, % male vs. female, number of different races, etc.
 •	Number of complaints filed against members of each different unit, aggregating to average number of complaints per LEO in each unit
 •	How many shifts/beats do certain partners work together?
 •	How often is one partner indicated on an allegation but not the other?

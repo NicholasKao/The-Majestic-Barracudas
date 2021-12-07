@@ -1,0 +1,13 @@
+CHECKPOINT 5 README
+
+How to Run Code:
+
+I recommend running the code within the Google Colab notebook. I used database connections rather than reading in csvs so all the code is self contained in the notebook. The notebook link is available to add @u.nothwestern.edu domains at: https://colab.research.google.com/drive/1PgWVuTjHCXH7aZNXguL84JB1tdROT1PC?usp=sharing
+
+In order to run that code, simply run all cells (imports and installs included in the notebook).
+
+I have also included .ipynb and .py files that can be tried (haven't tested) if there are problems with the Google Colab Notebook.
+
+The Question I am looking to answer is: "Sentiment analysis on the available free-form text of a complaint then related to the demographics of the officers’ specific units. Do we see a more negative sentiment between complaints against an officer of a unit that is more homogenous?"
+
+In order to view the answer to this, I have created some visualizations at the end of the Google Colab Notebook. I have created two plots for each relationship, one simple scatter plot, and one regplot that shows the line of best fit and confidence interval.

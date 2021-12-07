@@ -26,6 +26,6 @@ Graph Analytics
 •	As recommended in the last feedback; using triangle counting to create graphs of co-accusals (inter-unit and intra-unit) and determine which one is more clustered. If the inter-unit is more clustered, the unit may play a significant role. If the intra-unit is more clustered, the effect of the unit may not be that significant.
 
 NLP Models
-•	Sentiment analysis on the available free-form text of a complaint then related to the demographics of the officers’ specific units. Do we see a more negative sentiment between complaints against an officer of a unit that is more homogenous?
+•	Sentiment analysis on the available free-form text of a complaint then related to the demographics of the officers’ specific units. Do we see a more negative sentiment between complaints against an officer of a unit that is more homogenous? 
 
 

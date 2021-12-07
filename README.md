@@ -10,10 +10,14 @@ Relational Analytics
 •	Many background questions such as, for each unit, the average:
 
   o	Age, years on force, % male vs. female, number of different races, etc.
+  
 •	Number of complaints filed against members of each different unit, aggregating to average number of complaints per LEO in each unit
+
 •	How many shifts/beats do certain partners work together?
+
 •	How often is one partner indicated on an allegation but not the other?
-o	I am interested in this specifically to see if there is a pattern of certain officers being around behavior resulting in allegations but not being listed on the allegations. Are these officers “enabling” their partners to act out but not participating themselves?
+
+  o	I am interested in this specifically to see if there is a pattern of certain officers being around behavior resulting in allegations but not being listed on the allegations. Are these officers “enabling” their partners to act out but not participating themselves?
 
 Data Exploration
 •	Scatterplot with key characteristics of units vs. number of complaints against the unit
